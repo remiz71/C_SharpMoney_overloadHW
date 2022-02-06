@@ -7,11 +7,6 @@ namespace C_Sharp_overloadHW
         private int gr { get; set; }
         private int kop { get; set; }
         // Constructors
-        public Money()
-        {
-            gr = 0;
-            kop = 0;
-        }
         public Money(int gr, int kop)
         {
             this.gr = gr;
